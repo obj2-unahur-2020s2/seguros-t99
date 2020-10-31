@@ -7,6 +7,7 @@ interface Seguro {
 class ContraTerceros : Seguro {
   override fun costoPara(vehiculo: Vehiculo): Double {
     TODO("Not yet implemented")
+
   }
 }
 
