@@ -2,8 +2,8 @@ package ar.edu.unahur.obj2.seguros
 
 interface Seguro {
   fun costoPara(vehiculo: Vehiculo): Double
-  abstract fun puedeSerContratadoPorCamion(camion: Camion) : Boolean
-  abstract fun puedeSerContratadoPorTaxi(taxi: Taxi) : Boolean
+  fun puedeSerContratadoPorCamion(camion: Camion) : Boolean
+  fun puedeSerContratadoPorTaxi(taxi: Taxi) : Boolean
 }
 
 class ContraTerceros : Seguro {
